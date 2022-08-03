@@ -1,0 +1,424 @@
+
+*{
+border: 0;
+padding: 0;
+box-sizing: border-box;
+margin: 0;
+text-decoration: none;
+}
+    
+.cabeçalho{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: rgb(200, 222, 230);
+padding: 24px;
+height: 60px;
+width: 100%;
+background-image: radial-gradient(circle at 9.44% 107.92%, #ffffff 0, #ddddeb 50%, #898fb5 100%);
+font-size: 12px;
+
+
+}
+
+    
+   
+
+.menu {
+    
+    display: flex;
+    gap: auto;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+
+
+.itens-cabeça{
+
+    font-size: 1em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+.logo{
+    height: 48px;
+   
+    
+}
+
+.primeira-secao{
+background-color: midnightblue;
+color: white;
+height: 30%;
+width: 100%;
+display: flex;
+border-top: 1px solid rgb(231, 5, 201);
+background-image: radial-gradient(circle at 62.28% 119.64%, #ecb8ff 0, #ab93ff 25%, #6c6cd8 50%, #334696 75%, #00245d 100%);
+
+
+
+}
+
+.inicio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    width: 100%;
+ 
+  
+  
+}
+
+.imginicio{
+    
+     max-width: 100%;
+   
+    
+   
+}
+.letras{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.onepara{
+
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.segunda-secao{
+
+background-color: white;
+border-top: 1px solid rgb(231, 5, 201);
+display: flex;
+padding-top: 30px;
+padding-bottom: 100px;
+height: 25%;
+width: 100%;
+
+
+}
+.imgcarreira{
+max-width: 100%;
+
+
+
+}
+
+.letras2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.paragrafo{
+flex-direction: column;
+display: flex;
+}
+
+#Carreira{
+font-size: 40px;
+color: rgb(24, 24, 105);
+padding-left: 100px;
+padding-bottom: 40px;
+
+}
+.twopara{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.button1{
+
+height: 40px;
+width: 200px;
+margin-left: 100px;
+margin-bottom: 40px;
+border-radius: 20px;
+text-decoration: none;
+background-image: radial-gradient(circle at 62.28% 119.64%, #ecb8ff 0, #ab93ff 25%, #6c6cd8 50%, #334696 75%, #00245d 100%);
+
+
+}
+
+ .linkbutton:hover{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+
+.linkbutton{
+color: rgb(0, 0, 0);
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+}
+
+.terceirasecao{
+padding-top: 50px;
+height: 25%;
+width: 100%;
+border-top:  1px solid  red;
+display: flex;
+}
+.imgsecao3{
+
+    max-width: 100%;
+   
+    
+}
+
+.Estudos{
+display: flex;
+flex-direction: row;
+
+    
+}
+.letra3{
+
+flex-direction: column;
+
+}
+
+#Estudostitulo{
+    font-size: 40px;
+color: rgb(24, 24, 105);
+padding-left: 100px;
+padding-bottom: 40px;
+
+}
+
+.paragrafosecao3{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+}
+
+.quartasecao{
+    padding-top: 50px;
+    height: 25%;
+    width: 100%;
+border-top:  1px solid  red;
+display: flex;
+}
+
+
+    .imgsecao4{
+    
+        max-width: 100%;
+        padding-top: 30px ;
+padding-right: 50px;
+       
+        
+    }
+    
+    .Frontend{
+    display: flex;
+    flex-direction: row;
+    
+        
+    }
+    .letra4{
+    
+    flex-direction: column;
+    
+    }
+    
+    #Frontendtitulo{
+        font-size: 40px;
+    color: rgb(24, 24, 105);
+    padding-left: 100px;
+    padding-bottom: 40px;
+    
+    }
+    
+    .paragrafosecao4{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    }
+
+.rodape{
+
+border-top:  1px solid  red;
+height: 20%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+gap: 50px;
+background-image: url(modern-futuristic-sci-fi-background.jpg)
+
+    }
+
+
+    .links, .links2 {
+     font-size: 20px;
+     list-style-type: none;
+     font-family: Arial, Helvetica, sans-serif;
+       
+        
+    }
+    
+    
+    .letrarodape{
+        color: #ffffff;
+        
+    }
+
+    .contato{
+padding: 40px;
+
+
+    }
+   .links2 li{
+margin: 10px;
+
+   }
+  
+
+.imgicones{
+height: 30px;
+padding-right:10px ;
+padding-top: 12px;
+}
+
+.privacidade{
+padding-top: 40px;
+
+}
+
+
+   @media (max-width:768px) {
+
+    .letras{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    
+    .onepara,.twopara, .paragrafosecao3, .paragrafosecao4{
+    
+        padding-left: 4%;
+        padding-right: 4%;
+    
+    }
+    
+    #Inicio{
+        font-size: 20px;
+    }
+    
+    .letras2{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+    }
+    
+    .imgcarreira{
+        max-width: 60%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Frontend{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .Estudos{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+    }
+
+    .imgsecao3{
+        max-width: 60%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .imgsecao4{
+        max-width: 60%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .segunda-secao,.terceirasecao,.quartasecao{
+        background-image: radial-gradient(circle at 9.44% 107.92%, #ffffff 0, #ddddeb 50%, #898fb5 100%);
+
+    
+   }
+}
+  
+
+@media (max-width:425px) {
+.links{
+font-size: 12px ;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.imgicones{
+height: 0px;
+
+}
+
+.links2{
+font-size: 12px ;
+gap: 20px;
+}
+
+
+
+
+
+}
+
+@media (max-width:375px) {
+
+#linkedin{
+padding-right: 10px;
+
+}
+
+
+
+
+
+
+
+}
