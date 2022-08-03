@@ -9,6 +9,7 @@ text-decoration: none;
     
 .cabeçalho{
 display: flex;
+position: fixed;
 align-items: center;
 justify-content: space-around;
 background-color: rgb(200, 222, 230);
